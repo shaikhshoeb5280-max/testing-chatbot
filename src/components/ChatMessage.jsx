@@ -1,6 +1,6 @@
  import RobotProfileImage from '../assets/robot.png'
 import UserProfileImage from '../assets/profile-1.jpg'
-import './ChatMessage.css'
+import './Chatmessage.css'
  
  export function ChatMessage({ message, sender }) {
 
