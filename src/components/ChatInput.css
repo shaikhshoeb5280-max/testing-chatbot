@@ -1,0 +1,64 @@
+.chat-input-container {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* Input field */
+.chat-input {
+  flex-grow: 1;
+  max-width: 500px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chat-input:focus {
+  border-color: rgb(25, 135, 84);
+  box-shadow: 0 0 0 2px rgba(25, 135, 84, 0.15);
+}
+
+/* Send button */
+.send-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(25, 135, 84);
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.send-button:hover {
+  background-color: rgb(21, 115, 71);
+}
+
+.send-button:active {
+  transform: scale(0.96);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Clear button */
+.clear-btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgb(200, 200, 200);
+  font-size: 14px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.clear-btn:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+.clear-btn:active {
+  transform: scale(0.96);
+}

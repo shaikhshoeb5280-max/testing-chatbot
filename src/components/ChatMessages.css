@@ -1,0 +1,30 @@
+.chat-message-container {
+  overflow: scroll;
+  scrollbar-width: none;
+  flex-grow: 1;
+  margin-top: 10px;
+  position: relative;
+}
+
+.default-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 80%;
+}
+
+.default-message p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.spinner-img {
+  height: 40px;
+  margin: -15px;
+}
