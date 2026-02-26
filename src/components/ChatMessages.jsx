@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { ChatMessage } from './ChatMessage.jsx'
-import './Chatmessages.css'
+import './ChatMessages.css'
 import SpinnerImage from '../assets/loading-spinner.gif'
 
 function ChatMessages({ chatmessages, isloading }) {
